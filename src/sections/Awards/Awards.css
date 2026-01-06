@@ -1,0 +1,40 @@
+.awards {
+  background-color: #f8f8f8;
+}
+
+.awards-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+}
+
+.award-card {
+  background-color: #ffffff;
+  padding: 24px;
+  border-radius: 6px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  transition: transform 0.3s ease;
+}
+
+.award-card:hover {
+  transform: translateY(-6px);
+}
+
+.award-year {
+  display: inline-block;
+  color: #f57c00;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+
+.award-card h3 {
+  font-size: 18px;
+  color: #8b1d1d;
+  margin-bottom: 8px;
+}
+
+.award-card p {
+  color: #555;
+  font-size: 14px;
+  line-height: 1.5;
+}

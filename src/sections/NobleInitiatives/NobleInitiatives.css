@@ -1,0 +1,34 @@
+.noble {
+  background-color: #ffffff;
+}
+
+.noble-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+}
+
+.noble-card {
+  background-color: #f8f8f8;
+  padding: 28px;
+  border-radius: 6px;
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.noble-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.1);
+}
+
+.noble-card h3 {
+  color: #8b1d1d;
+  font-size: 22px;
+  margin-bottom: 12px;
+}
+
+.noble-card p {
+  color: #555;
+  font-size: 15px;
+  line-height: 1.6;
+}

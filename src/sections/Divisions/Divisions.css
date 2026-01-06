@@ -1,0 +1,50 @@
+.divisions {
+  background-color: #f8f8f8;
+}
+
+.divisions-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 24px;
+}
+
+.division-card {
+  background-color: #ffffff;
+  padding: 26px;
+  border-radius: 6px;
+  text-align: center;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  transition: transform 0.3s ease;
+}
+
+.division-card:hover {
+  transform: translateY(-6px);
+}
+
+.division-card h3 {
+  color: #8b1d1d;
+  font-size: 20px;
+  margin-bottom: 12px;
+}
+
+.division-card p {
+  color: #555;
+  font-size: 14px;
+  line-height: 1.6;
+  margin-bottom: 18px;
+}
+
+.division-btn {
+  display: inline-block;
+  padding: 10px 22px;
+  border: 1px solid #8b1d1d;
+  color: #8b1d1d;
+  font-weight: 600;
+  border-radius: 4px;
+  transition: all 0.3s ease;
+}
+
+.division-btn:hover {
+  background-color: #8b1d1d;
+  color: #ffffff;
+}

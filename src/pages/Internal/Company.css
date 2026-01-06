@@ -1,0 +1,135 @@
+.company-page {
+  width: 100%;
+}
+
+/* HERO */
+.company-hero {
+  height: 260px;
+  background: linear-gradient(
+    rgba(0, 0, 0, 0.55),
+    rgba(0, 0, 0, 0.55)
+  ),
+  #333;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.company-hero h1 {
+  color: #fff;
+  font-size: 40px;
+  font-weight: 700;
+}
+
+/* ABOUT */
+.about-grid {
+  display: grid;
+  grid-template-columns: 1.2fr 1fr;
+  gap: 40px;
+  align-items: center;
+}
+
+.about-text h3 {
+  color: #8b1d1d;
+  margin-bottom: 8px;
+}
+
+.about-text h4 {
+  font-size: 18px;
+  margin-bottom: 12px;
+}
+
+.about-text p {
+  color: #555;
+  line-height: 1.6;
+  margin-bottom: 10px;
+}
+
+.about-text ul {
+  margin-top: 10px;
+  padding-left: 20px;
+}
+
+.about-text li {
+  margin-bottom: 6px;
+}
+
+.image-placeholder {
+  height: 280px;
+  background: #e0e0e0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #777;
+}
+
+/* VISION */
+.company-vision {
+  background: #7a1c1c;
+  color: #fff;
+  padding: 50px 0;
+}
+
+.company-vision h3 {
+  margin-bottom: 12px;
+}
+
+.company-vision ul {
+  padding-left: 20px;
+}
+
+.company-vision li {
+  margin-bottom: 8px;
+}
+
+/* VALUES */
+.values-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+  align-items: center;
+}
+
+.values-text h3 {
+  color: #8b1d1d;
+  margin-bottom: 10px;
+}
+
+.value-item {
+  border: 1px solid #ddd;
+  padding: 12px;
+  margin-bottom: 10
+}
+/* VALUES ACCORDION */
+.value-box {
+  border-bottom: 1px solid #ccc;
+  padding: 12px 0;
+}
+
+.value-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.value-header:hover {
+  color: #8b1d1d;
+}
+
+.value-content {
+  margin-top: 10px;
+  padding-right: 20px;
+}
+
+.value-content p {
+  color: #555;
+  line-height: 1.6;
+}
+
+.icon {
+  font-size: 22px;
+  font-weight: bold;
+}

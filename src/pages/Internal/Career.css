@@ -1,0 +1,103 @@
+.career-page {
+  width: 100%;
+}
+
+/* HERO */
+.career-hero {
+  height: 260px;
+  background: linear-gradient(
+    rgba(0, 0, 0, 0.45),
+    rgba(0, 0, 0, 0.45)
+  ),
+  #aaa;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.career-hero h1 {
+  color: #fff;
+  font-size: 40px;
+  font-weight: 700;
+}
+
+/* TITLE */
+.career-title {
+  color: #8b1d1d;
+  font-size: 28px;
+  margin-bottom: 40px;
+}
+
+/* FORM */
+.career-form {
+  max-width: 900px;
+}
+
+.form-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 35px 40px;
+}
+
+.form-group label {
+  display: block;
+  font-size: 15px;
+  margin-bottom: 8px;
+  color: #000;
+}
+
+.form-group input {
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid #e3a48c;
+  padding: 8px 4px;
+  font-size: 14px;
+  outline: none;
+}
+
+/* UPLOAD */
+.upload-group .upload-box {
+  position: relative;
+  border-bottom: 1px solid #e3a48c;
+  padding-bottom: 8px;
+}
+
+.upload-box input[type="file"] {
+  position: absolute;
+  opacity: 0;
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+}
+
+.upload-box span {
+  background: #f6d8bd;
+  padding: 8px 25px;
+  border-radius: 2px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+/* BUTTON */
+.apply-btn {
+  margin-top: 40px;
+  padding: 10px 30px;
+  border: 1px solid #8b1d1d;
+  background: transparent;
+  color: #8b1d1d;
+  font-size: 15px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.apply-btn:hover {
+  background: #8b1d1d;
+  color: #fff;
+}
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+  .form-grid {
+    grid-template-columns: 1fr;
+  }
+}

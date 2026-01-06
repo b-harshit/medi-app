@@ -1,0 +1,85 @@
+.awards-page {
+  width: 100%;
+}
+
+/* HERO */
+.awards-hero {
+  height: 260px;
+  background: linear-gradient(
+    rgba(0, 0, 0, 0.45),
+    rgba(0, 0, 0, 0.45)
+  ),
+  #aaa;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.awards-hero h1 {
+  color: #fff;
+  font-size: 40px;
+  font-weight: 700;
+}
+
+/* SECTION */
+.awards-title {
+  color: #8b1d1d;
+  font-size: 28px;
+  margin-bottom: 30px;
+}
+
+/* GRID */
+.awards-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+}
+
+/* CARD */
+.award-card {
+  background: #fff;
+  border-radius: 8px;
+  padding: 15px;
+  box-shadow: 0 8px 25px rgba(0,0,0,0.08);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.award-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 15px 35px rgba(0,0,0,0.15);
+}
+
+.award-image {
+  height: 200px;
+  background: #eaeaea;
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #777;
+  margin-bottom: 15px;
+}
+
+.award-text {
+  font-size: 15px;
+  line-height: 1.5;
+  color: #111;
+}
+
+.award-text.highlight {
+  color: #f57c00;
+  font-weight: 500;
+}
+
+/* RESPONSIVE */
+@media (max-width: 992px) {
+  .awards-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 576px) {
+  .awards-grid {
+    grid-template-columns: 1fr;
+  }
+}
